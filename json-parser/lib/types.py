@@ -1,0 +1,13 @@
+class JSONType():
+    OPEN_PAREN = "("
+    CLOSE_PAREN = ")"
+    OPEN_BRACE = "{"
+    CLOSE_BRACE = "}"
+    OPEN_BRACKET = "["
+    CLOSE_BRACKET = "]"
+    COMMA = ","
+    COLON = ":"
+    STRING = "string"
+    NUMBER = "number"
+    BOOLEAN = "boolean"
+    NULL = "null"

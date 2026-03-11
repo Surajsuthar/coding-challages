@@ -43,10 +43,6 @@ def print_all(filename: str):
     num_lines = count_lines(filename)
     num_words = count_words(filename)
     num_chars = count_chars(filename)
-    print(f"counting bytes: {num_bytes}")
-    print(f"counting lines: {num_lines}")
-    print(f"counting words: {num_words}")
-    print(f"counting characters: {num_chars}")
 
     return num_bytes, num_lines, num_words, num_chars
 
