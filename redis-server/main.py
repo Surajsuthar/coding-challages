@@ -59,6 +59,7 @@ def handle_client(conn, addr):
                     if not command:
                         break
 
+                    print(f"[*] Command: {command}")
                     response = handle_command(command)
                     conn.sendall(serialize(response))
             except ConnectionError:
